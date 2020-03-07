@@ -1,0 +1,109 @@
+@media screen and (max-width:992px) {
+    .main-top-sidebar {
+        display: none;
+    }
+    .content-inner {
+        width: 95%;
+    }
+    .header-top-left, .header-bottom-left {
+        width: 20.513%;
+    }
+    .accessories-parts-category {
+        width: 19.355%;
+    }
+   .brand-item {
+        width: 16.67%;
+    }
+    .from-blog-image {
+        width: 95.83%;
+    }
+    .onsale-product-image {
+        width: 50%;
+    }
+    .main-top-banner {
+        padding: 0;
+    }
+    .main-menu, .header-line-text, .from-blog-content-outer, .onsale-products-content-outer, .left-banner-image-outer, .products-tags-content-outer {
+        display: none;
+    }
+    .header-top-right {
+        justify-content: center;
+    }
+    .menu-hidden {
+        display:flex;
+        padding-left: 30px;
+    }
+    .main-middle {
+        display: block;
+    }
+    .main-middle-left {
+        width: 100%;
+    }
+    .main-middle-right {
+        margin-left: 0;
+    }
+    .newsletter-center {
+
+    }
+    .form-subcribe {
+        width: 50%;
+    }
+    .site-footer {
+        font-size: 12px;
+    }
+    .title-content {
+        font-size: 14px;
+    }
+    .footer-top {
+        padding-top: 20px;
+    }
+    .download-content {
+        width: 66%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .header-funtion {
+        display: none;
+    }
+    .new-user {
+        display: none;
+    }
+    .header-bottom-right {
+        justify-content: flex-end;
+    }
+    .best-deal-field:nth-child(2n) {
+        display: none;
+    }
+    .accessories-parts {
+        flex-direction: column;
+    }
+    .accessories-parts-category {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .accessories-parts-list {
+        text-align: center;
+    }
+    .accessories-parts-field:last-child {
+        display: none;
+    }
+    .form-subcribe {
+        width: 30%;
+    }
+    .title-content {
+        font-size: 12px;
+    }
+    .site-footer {
+        font-size: 10px;
+    }
+    .header-bottom-left, .header-top-left {
+        width: 30%;
+    }
+    .header-top-left {
+        background-color: transparent;
+    }
+    
+}
